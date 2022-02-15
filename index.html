@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DrumSet</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="btns">
+            <button data-key="65" class="btn music">A
+                <p>Boom</p>
+            </button>
+            <button data-key="83" class="btn music">S
+                <p>Clap</p>
+            </button>
+            <button data-key="68" class="btn">D
+                <p>Hihat</p>
+            </button>
+            <button data-key="70" class="btn">F
+                <p>Kick</p>
+            </button>
+            <button data-key="71" class="btn">G
+                <p>Openhat</p>
+            </button>
+            <button data-key="72" class="btn">H
+                <p>Ride</p>
+            </button>
+            <button data-key="74" class="btn">J
+                <p>Snare</p>
+            </button>
+            <button data-key="75" class="btn">K
+                <p>Tink</p>
+            </button>
+            <button data-key="76" class="btn">L
+                <p>Tom</p>
+            </button>
+        </div>
+        <div id="btns-1">
+            <button data-key="87" class="btn music">W
+                <p>Boom</p>
+            </button>
+            <button data-key="81" class="btn music">Q
+                <p>Clap</p>
+            </button>
+            <button data-key="69" class="btn">E
+                <p>Hihat</p>
+            </button>
+            <button data-key="79" class="btn">O
+                <p>Kick</p>
+            </button>
+            <button data-key="82" class="btn">R
+                <p>Openhat</p>
+            </button>
+            <button data-key="73" class="btn">I
+                <p>Ride</p>
+            </button>
+            <button data-key="85" class="btn">U
+                <p>Snare</p>
+            </button>
+            <button data-key="84" class="btn">T
+                <p>Tink</p>
+            </button>
+            <button data-key="89" class="btn">Y
+                <p>Tom</p>
+            </button>
+
+        </div>
+    </div>
+    <audio data-key="65" src="/Drumset Audio Files/boom.wav"></audio>
+    <audio data-key="83" src="/Drumset Audio Files/clap.wav"></audio>
+    <audio data-key="68" src="/Drumset Audio Files/hihat.wav"></audio>
+    <audio data-key="70" src="/Drumset Audio Files/kick.wav"></audio>
+    <audio data-key="71" src="/Drumset Audio Files/openhat.wav"></audio>
+    <audio data-key="72" src="/Drumset Audio Files/ride.wav"></audio>
+    <audio data-key="74" src="/Drumset Audio Files/snare.wav"></audio>
+    <audio data-key="75" src="/Drumset Audio Files/tink.wav"></audio>
+    <audio data-key="76" src="/Drumset Audio Files/tom.wav"></audio>
+    <audio data-key="87" src="/Drumset Audio Files/boom.wav"></audio>
+    <audio data-key="81" src="/Drumset Audio Files/clap.wav"></audio>
+    <audio data-key="69" src="/Drumset Audio Files/hihat.wav"></audio>
+    <audio data-key="79" src="/Drumset Audio Files/kick.wav"></audio>
+    <audio data-key="82" src="/Drumset Audio Files/openhat.wav"></audio>
+    <audio data-key="73" src="/Drumset Audio Files/ride.wav"></audio>
+    <audio data-key="85" src="/Drumset Audio Files/snare.wav"></audio>
+    <audio data-key="84" src="/Drumset Audio Files/tink.wav"></audio>
+    <audio data-key="89" src="/Drumset Audio Files/tom.wav"></audio>
+    
+    <!-- <audio data-key="87" src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/hihat-close.wav"></audio> -->
+    <!-- <script>
+        window.addEventListener("keydown", function (e) {
+            var keyCode = e.keyCode ? e.keyCode : e.which;
+            console.log(keyCode);
+        })
+    </script> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
